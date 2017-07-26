@@ -8,10 +8,10 @@ var router = require('./router');
 var mongoose = require('mongoose');
 
 // Database connection:
-// mongoose.connect('mongodb://caitlyntetmeyer1:MerryMen182@ds147551.mlab.com:47551/project1');
+mongoose.connect('mongodb://caitlyntetmeyer1:MerryMen182@ds147551.mlab.com:47551/project1');
 
 //DB Connection
-mongoose.connect('mongodb://localhost:project1/project1');
+// mongoose.connect('mongodb://localhost:project1/project1');
 
 /* Begin Middleware: */
 
